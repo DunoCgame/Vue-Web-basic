@@ -1,7 +1,7 @@
 <template>
-	  <div class="about">		
+	  <div class="about">
 			<Jumbotron/>
-			<HelloWorld/>			
+			<InfoAbout/>			
 			<Foto/>			
 			<Sidebar/>
 			<Footer/> 
@@ -15,12 +15,12 @@ import Sidebar from '@/components/Sidebar.vue';
 import Jumbotron from '@/components/Jumbotron.vue';
 import Posts from '@/components/Posts.vue';
 import Foto from '@/components/fotografia.vue';
-import HelloWorld from '@/components/ContentAbout.vue';
+import InfoAbout from '@/components/ContentAbout.vue';
 
 export default {
   name:'about',
   components: {
-    Posts, Jumbotron, HelloWorld, Sidebar, Footer, Foto
+    Posts, Jumbotron, InfoAbout, Sidebar, Footer, Foto
   }
 }
 </script>
