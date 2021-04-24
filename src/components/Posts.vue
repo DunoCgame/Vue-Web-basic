@@ -1,8 +1,8 @@
 <template>
 	<div class="posts_info">
 		<b-container class="bv-example-row" fluid>
-
-				<div v-for="post of posts"  :key="post.id">				
+ 
+				<div v-for="post, index in posts"  :key="post.id" v-if="index < 3">				
 					<h2>{{post.title}}</h2>
 					<p>{{post.body}}</p>				 
 					
